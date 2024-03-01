@@ -154,15 +154,18 @@ a.btn-custom:hover{
 	padding:10px 20px;
 }
 
-.fullwidthbanner-container a.btn{
-text-transform:uppercase;
-letter-spacing:1px;
-color:#fff !important;
-font-weight:700;
-padding:10px 20px 10px 20px;
-border-radius:0;
--moz-border-radius:0;
--webkit-border-radius:0;
+.fullwidthbanner-container a.btn {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff !important;
+	font-weight: 700;
+	padding: 10px 20px;
+	-webkit-border-radius: 0;
+	/* Webkit browsers */
+	-moz-border-radius: 0;
+	/* Firefox */
+	border-radius: 0;
+	/* Standard syntax */
 }
 
 .tp-caption.separator {

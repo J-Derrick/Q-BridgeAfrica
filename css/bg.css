@@ -49,7 +49,9 @@ background:url(../images/background/subheader.jpg)top fixed;
 #section-welcome-8{background:url(../images/background/bg-20.jpg) fixed center;}
 #section-welcome-9{background:url(../images/background/bg-21.jpg) top fixed;}
 #section-welcome-10{background:url(../images/background/bg-23.jpg) top fixed;}
-#section-welcome-11{background:url(../images/background/bg-25.jpg) top fixed;}
+#section-welcome-11{background:url(../images/what-are-quantum-communications.jpg) top center / cover fixed;
+	image-resolution:2dppx;
+}
 #section-welcome-12{background:url(../images/background/bg-26.jpg) top fixed;}
 #section-welcome-13{background:url(../images/background/bg-29.jpg) top fixed;}
 #section-welcome-14{background:url(../images/background/bg-30.jpg) top fixed;}
@@ -83,9 +85,11 @@ background:url(../images/background/subheader.jpg)top fixed;
 #section-pattern-1{background:url(../images/background/pattern-1.jpg) 100% !important;}
 
 
-#side-01-about.side-bg .image-container{background:url(../images/background/bg-side-7.jpg) center;}
-#side-01-contact.side-bg .image-container{background:url(../images/background/bg-side-7.jpg) center;}
-#side-01-services.side-bg .image-container{background:url(../images/background/bg-side-9.jpg) center;}
+#side-01-about.side-bg .image-container{background:url(../images/quantum\ images.jpeg) center;}
+
+}
+#side-01-contact.side-bg .image-container{background:url(../images/) center;}
+#side-01-services.side-bg .image-container{background:url(../images/communication-makes-life-easy.webp) center;}
 
 
 /* services section side background */
@@ -133,82 +137,4 @@ background:url(../images/background/subheader.jpg)top fixed;
 	background-position:top !important;
 	}
 }
-.features-section {
-	/* Center the div horizontally and vertically */
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	/* Set the background image */
-	background-image: url('images\4433.jpg');	
-	/* Ensure the background image covers the entire div */
-	background-size: cover;
-	/* Ensure the background image is centered */
-	background-position: center;
-	/* Ensure the background image does not repeat */
-	background-repeat: no-repeat;
-	/* Set the width and height of the div, adjust as needed */
-	width: 100%;
-	height: 100vh;
-}
-/* CSS for the "Our Features" heading */
-.features-section h2 {
-	font-size: 32px;
-	/* Adjust the font size */
-	font-weight: 700;
-	/* Make the text bold */
-	text-align: center;
-	/* Center the text */
-	margin-right: 50px;
-	/* Add some space below the heading */
-	color: #fab702;
-	/* Set the text color */
-	text-transform: uppercase;
-	/* Make the text uppercase */
-	letter-spacing: 1px;
-	/* Add some space between the letters */
-	border-bottom: 2px solid #fab702;
-	/* Add a bottom border */
-	padding-bottom: 10px;
-	/* Add some space below the text */
-	display: inline-block;
-	/* Allows the border to only underline the text */
-}
-
-/* Optional: Add a hover effect to the heading */
-.features-section h2:hover {
-	color: yellow;
-	/* Change the text color on hover */
-	border-color: #fab702;
-	/* Change the border color on hover */
-}
-.content-section h2 {
-	font-size: 32px;
-	/* Adjust the font size */
-	font-weight: 700;
-	/* Make the text bold */
-	text-align: center;
-	/* Center the text */
-	margin-bottom: 20px;
-	/* Add some space below the heading */
-	color: #fab702;
-	/* Set the text color */
-	text-transform: uppercase;
-	/* Make the text uppercase */
-	letter-spacing: 1px;
-	/* Add some space between the letters */
-	border-bottom: 2px solid yellow;
-	/* Add a bottom border */
-	padding-bottom: 10px;
-	/* Add some space below the text */
-	display: inline-block;
-	/* Allows the border to only underline the text */
-	width: 100%;
-		text-align: center;
-}
-.content-section{
-	width: 100%;
-		text-align: center;
-}
-.content-section ul {gi
-	margin: 25px;
-}
+	
