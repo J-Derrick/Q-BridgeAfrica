@@ -1,2 +1,2 @@
 # Q-BridgeAfrica
-Website for Quantum Bridge Africa , A financial solutions company
+Template Website for Quantum Bridge Africa , A financial solutions company
